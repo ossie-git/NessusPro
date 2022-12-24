@@ -154,8 +154,8 @@ def scan_history(url,s_name,scan_id):
               break
     else:
       print('...')
-    except:
-      print("We can't find any history. Here is the raw data received to look through\n%s")%str(data)
+  except:
+    print("We can't find any history. Here is the raw data received to look through\n%s")%str(data)
 
 # 	Status Check
 def status_check(scan,file):
